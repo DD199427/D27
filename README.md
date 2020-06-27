@@ -12,3 +12,15 @@ Tamil_ops.ipynb - Operations on Tamil text with NLTK. Operations Performed: 1.To
 Thesarus.ipynb - The wordnet,names,Countvectorisation,Stopwords removal corpus exploration in NLTK. 
 Tokenize.ipynb - Tokenize a book in txt format from gutenberg.
 WebScrapping_getting NER (1).ipynb - Webscrapping with spacy the final attempt with success at scraping clean text and tokenizing and Bag of words formation.
+
+Tamil NLP Referance Papers:
+Shanmugam,Mani,Sivakumar,Rajeswari 2019 Human-Computer text conversation through NLP in Tamil using Intent Recognition: IEEE
+Manigandan,Vidhya,Vidhya,Nirmala 2017 Tamil Character Recognition from Ancient Epigraphical Inscription using OCR and NLP ,International Conference on Energy, Communication, Data Analytics and Soft Computing :ICECDS.
+Thayaparan,Ranathunga,Thayasivam 2020 GraphBasedSemi-Supervised Learning for Tamil POS Tagging : IEEE
+
+Applications of INLTK operations:
+Tokenization - Without tokenization there is no POS tagging without which there cant be any vectorisation
+Predicting next set of words - Useful in processing text with meaningless or incomplete chunks.
+Sentence Encoding - For processing through other supervised, unsupervised alike
+Sentence Similarity- Sentiment analysis and classification
+
